@@ -3,3 +3,5 @@ include:
   - { project: fsrvcorp/ci-templates, file: golang.yml }
   - { project: fsrvcorp/ci-templates, file: dependency-imp.yml }
   - { project: fsrvcorp/ci-templates, file: semantic-versioning.yml }
+  - { project: fsrvcorp/ci-templates, file: docker-image.yml }
+
