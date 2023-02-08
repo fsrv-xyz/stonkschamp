@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/getsentry/sentry-go v0.18.0
 	github.com/influxdata/influxdb-client-go/v2 v2.12.2
-	gopkg.in/alecthomas/kingpin.v2 v2.2.6
+	gopkg.in/alecthomas/kingpin.v2 v2.3.1
 )
 
 require (
