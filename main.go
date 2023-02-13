@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/alecthomas/kingpin/v2"
 	"github.com/getsentry/sentry-go"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
-	"gopkg.in/alecthomas/kingpin.v2"
 
 	"github.com/fsrv-xyz/stonkschamp/internal/api"
 )
