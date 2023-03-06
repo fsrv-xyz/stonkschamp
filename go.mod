@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.3.1
-	github.com/getsentry/sentry-go v0.18.0
+	github.com/getsentry/sentry-go v0.19.0
 	github.com/influxdata/influxdb-client-go/v2 v2.12.2
 )
 
