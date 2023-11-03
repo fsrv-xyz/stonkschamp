@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/alecthomas/kingpin/v2 v2.3.2
 	github.com/getsentry/sentry-go v0.25.0
-	github.com/influxdata/influxdb-client-go/v2 v2.12.3
+	github.com/influxdata/influxdb-client-go/v2 v2.12.4
 )
 
 require (
@@ -14,9 +14,8 @@ require (
 	github.com/deepmap/oapi-codegen v1.12.4 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/influxdata/line-protocol v0.0.0-20210922203350-b1ad95c89adf // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/xhit/go-str2duration/v2 v2.1.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 )
