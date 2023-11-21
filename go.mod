@@ -3,7 +3,7 @@ module github.com/fsrv-xyz/stonkschamp
 go 1.19
 
 require (
-	github.com/alecthomas/kingpin/v2 v2.3.2
+	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/getsentry/sentry-go v0.25.0
 	github.com/influxdata/influxdb-client-go/v2 v2.12.4
 )
