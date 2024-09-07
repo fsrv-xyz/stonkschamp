@@ -1,4 +1,4 @@
-FROM golang:alpine@sha256:f591145352ef7cd7d7e2b4e1d4a6fd4dd2ac72c405b689d6e8147339105a9e3a AS builder
+FROM golang:alpine@sha256:fbc3a217775ee3ec2328077ad4f3681bbc2c4a812d63cc8c857c827f1e8e971f AS builder
 WORKDIR /build
 COPY . /build
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /build/app
