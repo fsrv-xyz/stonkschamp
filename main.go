@@ -35,7 +35,7 @@ func main() {
 
 	// initialize sentry instrumentation
 	sentry.Init(sentry.ClientOptions{TracesSampleRate: 1.0, Transport: sentry.NewHTTPSyncTransport(), Debug: true, EnableTracing: true})
-	sentryRootSpan := sentry.StartSpan(context.Background(), "stonkschamp", sentry.TransactionName("stonkschamp"))
+	sentryRootSpan := sentry.StartSpan(context.Background(), "stonkschamp", sentry.WithTransactionName("stonkschamp"))
 	defer sentryRootSpan.Finish()
 	defer sentry.Flush(2 * time.Second)
 

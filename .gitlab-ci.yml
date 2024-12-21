@@ -14,6 +14,6 @@ stages:
 variables:
   SEMVER_PREFIX: v
 include:
-  - { project: fsrvcorp/templates, file: templates/language/go.yml, ref: 1.0.5 }
-  - { project: fsrvcorp/templates, file: templates/release/semver.yml, ref: 1.0.5 }
-  - { project: fsrvcorp/templates, file: templates/release/kaniko.yml, ref: 1.0.5 }
+  - { project: fsrvcorp/templates, file: templates/language/go.yml, ref: 1.0.10 }
+  - { project: fsrvcorp/templates, file: templates/release/semver.yml, ref: 1.0.10 }
+  - { project: fsrvcorp/templates, file: templates/release/kaniko.yml, ref: 1.0.10 }
